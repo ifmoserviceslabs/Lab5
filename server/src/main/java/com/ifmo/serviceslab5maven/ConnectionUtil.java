@@ -7,8 +7,8 @@ import java.util.logging.Logger;
 
 public class ConnectionUtil {
     private static final String JDBC_URL = "jdbc:postgresql://localhost:5432/services";
-    private static final String JDBC_USER = "postgres";
-    private static final String JDBC_PASSWORD = "Advinow";
+    private static final String JDBC_USER = "username";
+    private static final String JDBC_PASSWORD = "password";
     static {
         try {
             Class.forName("org.postgresql.Driver");
